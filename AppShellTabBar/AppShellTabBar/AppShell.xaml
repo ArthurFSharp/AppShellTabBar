@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="AppShellTabBar.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppShellTabBar"
+    Shell.NavBarHasShadow="False"
+    Shell.TabBarTitleColor="Black"
+    Shell.TabBarUnselectedColor="Gray">
+    <TabBar>
+        <Tab Title="Menu">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="Menu 2">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+    </TabBar>
+</Shell>
